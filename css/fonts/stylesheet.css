@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Akrobat';
+    src: url('Akrobat-Bold.otf') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: url('Akrobat-ExtraBold.otf') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: url('Akrobat-Black.otf') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+

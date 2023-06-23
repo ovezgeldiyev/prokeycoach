@@ -1,0 +1,169 @@
+// 1450px
+@include xxxxlg-xxxxxlg {
+    // @include hero-xxxxlg-xxxxxlg;
+}
+// 1380px
+@include xxxlg-xxxxlg {
+    @include hero-xxxlg-xxxxlg;
+}
+// 1250px
+@include xlg-xxlg-extra {
+    h2 {
+        font-size: 100px;
+        &.big {
+            font-size: 108px;
+        }
+    }
+    @include hero-xlg-xxlg-extra;
+}
+// 1180px
+@include xlg-xxlg {
+    .auto__container {
+        padding: 0 30px;
+    }
+    h1 {
+        font-size: 60px;
+        line-height: 75px;
+        font-weight: 800;
+        font-family: $mainFont
+    }
+    h2 {
+        font-size: 95px;
+        &.big {
+            font-size: 95px;
+        }
+    }
+    @include header-xlg-xxlg;
+    @include nav-xlg-xxlg;
+    @include hero-xlg-xxlg;
+    @include testimonials-xlg-xxlg;
+    @include news-xlg-xxlg;
+    @include footer-xlg-xxlg;
+
+}
+// 1024px
+@include lg-xlg {
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    .main {
+        padding-top: 64.63px;
+    }
+    h2 {
+        font-size: 70px;
+        &.big {
+            font-size: 70px;
+        }
+    }
+    @include header-lg-xlg;
+    @include nav-lg-xlg;
+    @include hero-lg-xlg;
+    @include shop-lg-xlg;
+    @include testimonials-lg-xlg;
+    @include footer-lg-xlg;
+
+}
+// 930px
+@include md-lg {
+    h2 {
+        font-size: 50px;
+        &.big {
+            font-size: 50px;
+        }
+    }
+    @include hero-md-lg;
+    @include intro-md-lg;
+    @include shop-md-lg;
+    @include team-md-lg;
+    @include join-md-lg;
+    @include testimonials-md-lg;
+    @include news-md-lg;
+    @include footer-md-lg;
+
+}
+// 750px
+@include sm-md {
+    .auto__container {
+        padding: 0 20px;
+    }
+    h2 {
+        &.big {
+            -webkit-text-stroke-width: 1px;
+        }
+    }
+    .search {
+        padding: 0;
+        width: unset;
+        input {
+            display: none;
+        }
+        button {
+            width: 22px;
+            height: 22px;
+            &:hover {
+                svg {
+                    color: $primary;
+                    transition: .3s ease;
+                }
+            }
+        }
+    }
+    @include hero-sm-md;
+    @include team-sm-md;
+    @include join-sm-md;
+    @include testimonials-sm-md;
+    @include news-sm-md;
+
+}
+// 650px
+@include sm-md-extra {
+    @include hero-sm-md-extra;
+    @include shop-sm-md-extra;
+    @include team-sm-md-extra;
+    @include news-sm-md-extra;
+    @include testimonials-sm-md-extra;
+
+}
+// 540px
+@include xsm-sm  {
+    h1 {
+        font-size: 46px;
+        line-height: 100%;
+        text-align: center;
+        strong {
+            font-size: 42px;
+        }
+    }
+    h2 {
+        font-size: 39px;
+        &.big {
+            font-size: 39px;
+        }
+    }
+    .main {
+        padding: 0;
+    }
+    @include hero-xsm-sm;
+    @include shop-xsm-sm;
+    @include team-xsm-sm;
+    @include join-xsm-sm;
+    @include reveal-xsm-sm;
+    @include news-xsm-sm;
+    @include testimonials-xsm-sm;
+    @include intro-xsm-sm;
+    @include footer-xsm-sm;
+
+}
+// 440px
+@include xxsm-xsm  {
+    @include hero-xxsm-xsm;
+    @include intro-xxsm-xsm;
+    @include team-xxsm-xsm;
+    @include testimonials-xxsm-xsm;
+
+}
+// 390px
+@include xxxsm-xxsm  {
+    // @include hero-xxxsm-xxsm;
+}
+
